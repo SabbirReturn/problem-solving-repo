@@ -10,6 +10,6 @@ let students=[
 ]
 
 for(let student of students){
-  console.log(`Name:${student['name']},Marks:${student['marks']}`)
+  console.log(student['name'], 'Score',student['marks'])
 }
 
