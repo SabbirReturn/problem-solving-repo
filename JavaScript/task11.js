@@ -15,3 +15,17 @@ function count_zero(str){
 
 let binaryString = count_zero('10101110000');
 console.log(binaryString)
+function count_zero(str){
+    let countZero = [];
+    let alphabets = str.split("")
+    for( let alphabet of alphabets){
+        // console.log(alphabet)
+        if(alphabet === '0'){
+            countZero.push(alphabet)
+        }
+    }
+    return countZero.length
+}
+
+let binaryString = count_zero('10101110000');
+console.log(binaryString)
