@@ -5,6 +5,7 @@ function findLowestNumber(numbers){
             lowestNumber = number
         }
     }
+    // return lowestNumber
     return lowestNumber
 }
 
