@@ -8,6 +8,7 @@ function smallestName(names){
             smallName = name;
         }
     }
+    // return smallName;
     return smallName;
 }
 
