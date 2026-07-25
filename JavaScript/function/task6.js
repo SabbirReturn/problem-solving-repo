@@ -10,6 +10,7 @@ function calculateMoney(sellTickets,guardNumber){
 }
 
 let sellTickets = 1055;
+// let guardNumber = 8;
 let guardNumber = 8;
 let profit = calculateMoney(sellTickets, guardNumber);
 console.log(profit)
