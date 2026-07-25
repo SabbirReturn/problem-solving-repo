@@ -15,6 +15,7 @@
         let price = product['price']
         sum = sum + price
     }
+   //  return sum;
     return sum;
  }
 
