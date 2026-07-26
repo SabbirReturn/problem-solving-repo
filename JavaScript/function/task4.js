@@ -10,6 +10,7 @@
     ];
 
     function findAveragePhonePrice(products){
+        // let totalPrice  = 0;
         let totalPrice  = 0;
         for(let product of products){
             let price = product.price;
