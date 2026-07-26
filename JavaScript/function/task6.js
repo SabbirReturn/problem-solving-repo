@@ -1,6 +1,7 @@
 function calculateMoney(sellTickets,guardNumber){
     let ticketPrice = 120;
     let guardSalary = 500;
+    // let lunchCost = guardNumber * 50;
     let lunchCost = guardNumber * 50;
     
     let totalSellAmount = sellTickets * ticketPrice;
