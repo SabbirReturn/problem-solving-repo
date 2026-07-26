@@ -8,6 +8,7 @@
         ];
 
 function calculateSalary(employees){
+    // let givenTotalSalary = 0;
     let givenTotalSalary = 0;
     for(let employee of employees){
         let salary = employee.increment * employee.experience;
