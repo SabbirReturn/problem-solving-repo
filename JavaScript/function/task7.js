@@ -104,6 +104,7 @@ function checkName(name){
         return ` Good Name`
     }
     else{
+        // return `Bad Name`
         return `Bad Name`
     }
     
