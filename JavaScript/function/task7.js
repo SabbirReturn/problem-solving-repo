@@ -99,11 +99,13 @@ function checkName(name){
         return `Invalid`
     }
     name = name.toLowerCase()
+    // let lastChar = name[name.length-1]
     let lastChar = name[name.length-1]
     if( goodLastChars.includes(lastChar)){
         return ` Good Name`
     }
     else{
+        // return `Bad Name`
         // return `Bad Name`
         return `Bad Name`
     }
